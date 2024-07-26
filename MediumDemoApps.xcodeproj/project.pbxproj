@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6608D3862C53D9E000BEED11 /* MediumDemoAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D3852C53D9E000BEED11 /* MediumDemoAppsApp.swift */; };
-		6608D3882C53D9E000BEED11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D3872C53D9E000BEED11 /* ContentView.swift */; };
 		6608D38A2C53D9E100BEED11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6608D3892C53D9E100BEED11 /* Assets.xcassets */; };
 		6608D38D2C53D9E100BEED11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6608D38C2C53D9E100BEED11 /* Preview Assets.xcassets */; };
 		6608D3972C53D9E100BEED11 /* MediumDemoAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D3962C53D9E100BEED11 /* MediumDemoAppsTests.swift */; };
 		6608D3A12C53D9E100BEED11 /* MediumDemoAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D3A02C53D9E100BEED11 /* MediumDemoAppsUITests.swift */; };
 		6608D3A32C53D9E100BEED11 /* MediumDemoAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D3A22C53D9E100BEED11 /* MediumDemoAppsUITestsLaunchTests.swift */; };
-		6608D3B02C53DA0B00BEED11 /* Lightbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D3AF2C53DA0B00BEED11 /* Lightbox.swift */; };
+		6608D3B02C53DA0B00BEED11 /* LightBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D3AF2C53DA0B00BEED11 /* LightBoxView.swift */; };
 		6608D3BE2C53DA8900BEED11 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608D3BD2C53DA8900BEED11 /* SafeAreaView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		6608D3822C53D9E000BEED11 /* MediumDemoApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumDemoApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6608D3852C53D9E000BEED11 /* MediumDemoAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumDemoAppsApp.swift; sourceTree = "<group>"; };
-		6608D3872C53D9E000BEED11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6608D3892C53D9E100BEED11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6608D38C2C53D9E100BEED11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6608D3922C53D9E100BEED11 /* MediumDemoAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediumDemoAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +44,7 @@
 		6608D39C2C53D9E100BEED11 /* MediumDemoAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediumDemoAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6608D3A02C53D9E100BEED11 /* MediumDemoAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumDemoAppsUITests.swift; sourceTree = "<group>"; };
 		6608D3A22C53D9E100BEED11 /* MediumDemoAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumDemoAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6608D3AF2C53DA0B00BEED11 /* Lightbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightbox.swift; sourceTree = "<group>"; };
+		6608D3AF2C53DA0B00BEED11 /* LightBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBoxView.swift; sourceTree = "<group>"; };
 		6608D3BD2C53DA8900BEED11 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,10 +96,8 @@
 		6608D3842C53D9E000BEED11 /* MediumDemoApps */ = {
 			isa = PBXGroup;
 			children = (
+				6608D3BF2C53DC9E00BEED11 /* Views */,
 				6608D3852C53D9E000BEED11 /* MediumDemoAppsApp.swift */,
-				6608D3872C53D9E000BEED11 /* ContentView.swift */,
-				6608D3AF2C53DA0B00BEED11 /* Lightbox.swift */,
-				6608D3BD2C53DA8900BEED11 /* SafeAreaView.swift */,
 				6608D3892C53D9E100BEED11 /* Assets.xcassets */,
 				6608D38B2C53D9E100BEED11 /* Preview Content */,
 			);
@@ -131,6 +127,15 @@
 				6608D3A22C53D9E100BEED11 /* MediumDemoAppsUITestsLaunchTests.swift */,
 			);
 			path = MediumDemoAppsUITests;
+			sourceTree = "<group>";
+		};
+		6608D3BF2C53DC9E00BEED11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6608D3AF2C53DA0B00BEED11 /* LightBoxView.swift */,
+				6608D3BD2C53DA8900BEED11 /* SafeAreaView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6608D3BE2C53DA8900BEED11 /* SafeAreaView.swift in Sources */,
-				6608D3882C53D9E000BEED11 /* ContentView.swift in Sources */,
-				6608D3B02C53DA0B00BEED11 /* Lightbox.swift in Sources */,
+				6608D3B02C53DA0B00BEED11 /* LightBoxView.swift in Sources */,
 				6608D3862C53D9E000BEED11 /* MediumDemoAppsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

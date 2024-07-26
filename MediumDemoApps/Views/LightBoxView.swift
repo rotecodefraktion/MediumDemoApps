@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Lightbox: View {
+struct LightBoxView: View {
     
     let rows: [GridItem] = [
         GridItem(.flexible(), spacing: 0, alignment: nil ),
@@ -155,5 +155,5 @@ struct Lightbox: View {
 }
 
 #Preview {
-    Lightbox()
+    LightBoxView()
 }
